@@ -9,7 +9,9 @@ function App() {
     return (
         <div className={styles.app}>
             <Logo/>
-            <Main/>
+            <main className={styles.content}>
+                <Main/>
+            </main>
             <Footer/>
         </div>
     );
