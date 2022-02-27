@@ -5,7 +5,7 @@ export const Footer = () => {
 
     return (
         <footer className={styles.footer}>
-            <a href="https://newline.co">Newline.co</a>
+            <a href="https://wangyousong.com">wangyousong.com</a>
             <br/>
             {currentYear}
         </footer>
