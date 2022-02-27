@@ -10,16 +10,18 @@ export const InstrumentSelector = () => {
         setInstrument(target.value as InstrumentName)
 
     return (
-        <select
-            className={styles.instruments}
-            onChange={updateValue}
-            value={instrument}
-        >
-            {options.map(({label, value}) => (
-                <option key={value} value={value}>
-                    {label}
-                </option>
-            ))}
-        </select>
+        <div className={styles.selector}>
+            <select
+                className={styles.instruments}
+                onChange={updateValue}
+                value={instrument}
+            >
+                {options.map(({label, value}) => (
+                    <option key={value} value={value}>
+                        {label}
+                    </option>
+                ))}
+            </select>
+        </div>
     )
 }
