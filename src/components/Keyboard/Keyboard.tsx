@@ -1,6 +1,6 @@
 import {FunctionComponent} from "react";
 import {selectKey} from "../../domain/keyboard";
-import {notes, MidiValue} from "../../domain/note";
+import {MidiValue, notes} from "../../domain/note";
 import {Key} from "../Key";
 import styles from "./Keyboard.module.css"
 
